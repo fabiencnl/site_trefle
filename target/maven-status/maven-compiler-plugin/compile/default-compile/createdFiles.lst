@@ -1,0 +1,16 @@
+miage\ter\trefle\model\Client.class
+miage\ter\trefle\model\CartProduct.class
+miage\ter\trefle\model\ExampleDB.class
+miage\ter\trefle\model\Product.class
+miage\ter\trefle\controller\Utils.class
+miage\ter\trefle\model\Director.class
+miage\ter\trefle\controller\LogoutServlet.class
+miage\ter\trefle\controller\LoginServlet.class
+miage\ter\trefle\model\Movie.class
+miage\ter\trefle\controller\ProductServlet.class
+miage\ter\trefle\controller\MainPageServlet.class
+miage\ter\trefle\Main.class
+miage\ter\trefle\model\User.class
+miage\ter\trefle\controller\CartServlet.class
+miage\ter\trefle\controller\LoginFilter.class
+miage\ter\trefle\model\Point.class

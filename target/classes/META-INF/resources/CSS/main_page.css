@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+body {
+    background: url(//subtlepatterns.com/patterns/scribble_light.png);
+    font-family: Calluna, Arial, sans-serif;
+    margin:0 auto;
+    width:960px;
+}
+
+aside{
+    width:280px;
+    float:left;
+    background-color:lightblue;
+    font-weight:bold;
+    padding:20px;
+    margin-left:20px;
+}
+
+header{
+    background-position : center;
+    height:150px;
+}
+header h1{
+    color:red;
+    margin-left:30px;
+    margin-top:10px;
+    font-size:50px;
+}
+footer{
+    margin:40px 0;
+}
+footer nav a:link, footer nav a:visited {
+    color:gray;
+    text-decoration:none;
+    display:block;
+    width:240px;
+    text-align: center;
+    background-color:white;
+}
+
+#columns {
+    -moz-column-gap: 5px;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    margin: 50px auto;
+    display:flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.element {
+    flex-basis: 20%;
+}
+
+div#columns figure {
+    background: #fefefe;
+    border: 2px solid #fcfcfc;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 0 2px 15px;
+    padding: 15px 15px 10px;
+    transition: all .7s ease-in-out;
+    display: inline-block;
+}
+
+div#columns figure img {
+    width: 100%; height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+    font-size: .9rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+div#columns small {
+    font-size: 1rem;
+    float: right;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+div#columns small a {
+    color: #666;
+    text-decoration: none;
+    transition: .4s color;
+}
+div#columns figure:hover{
+    padding: 1px;
+}
+
+p {
+    font-size: 0.6vw;
+}
+
+a.button{
+    padding:10px;
+    background:salmon;
+    margin:10px;
+    display:block;
+    text-align:center;
+    color:#fff;
+    transition:all 1s linear;
+    text-decoration:none;
+    text-shadow:1px 1px 3px rgba(0,0,0,0.3);
+    border-radius:3px;
+    border-bottom:3px solid #ff6536;
+    box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+}
+a.button:hover{
+    background:#ff6536;
+    border-bottom:3px solid salmon;
+    color:#f1f2f3;
+}
+
+@media screen and (max-width: 750px) {
+    #columns { column-gap: 0px; }
+    #columns figure { width: 100%; }
+}
+
+a:link, a:visited{
+    text-decoration:none;
+    color:yellow;
+    font-weight:bold;
+}
+a:hover{
+    color:black;
+}
+nav ul{
+    list-style-type:none;
+    padding:0;
+}
+
+nav li{
+    display:inline;
+    float:left;
+}
+nav a:link, nav a:visited{
+    color:white;
+    background-color:brown;
+    display:block;
+    width: 180px;
+    text-align:center;
+    padding:10px 0;
+    margin-top:60px;
+
+}
+nav a:hover{
+    background-color:blue;
+}
+
+.photo-left{
+    margin-right:20px;
+    padding:20px;
+}
+.photo-rigt{
+    margin:0 auto;
+    float: right;
+    margin-top: 20px;
+}
+
+#titleInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+/* Utilisé pour positionner l'icone de loupe dans l'input */
+.input-icon{
+    position: absolute;
+    left: 14%;
+    top: calc(50% - 0.6em);
+}
+input{
+    padding-left: 17px;
+}
+.input-wrapper{
+    font-size:xx-large;
+    position: relative;
+}
+
+.noProductFound{
+    color : red;
+    font-size: xx-large;
+}
+
+.machin{
+    text-align: center;
+}
